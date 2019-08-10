@@ -1,0 +1,30 @@
+{
+  "name": "recursive-cmd",
+  "version": "0.0.1",
+  "description": "Executes a command recursively",
+  "preferGlobal": true,
+  "main": "index.js",
+  "bin": {
+    "recursive": "./index.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcnvdl/recursive-cmd.git"
+  },
+  "keywords": [
+    "recursive-cmd",
+    "recursive"
+  ],
+  "author": "lcnvdl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lcnvdl/recursive-cmd/issues"
+  },
+  "homepage": "https://github.com/lcnvdl/recursive-cmd#readme",
+  "dependencies": {
+    "colog": "^1.0.4"
+  }
+}
